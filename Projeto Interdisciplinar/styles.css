@@ -62,9 +62,31 @@ ul{
     font-size:x-large
 }
 
+.carousel-inner img {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 500px; /* Mantenha a proporção original da imagem */
+    object-fit: cover;
+  }
+/* Estilo personalizado para centralizar as imagens */
+.carousel-inner {
+    text-align: center;
+    background-color: #e7a8a4;
+}
 
+.carousel-item {
+    display: inline-block;
+}  
+/* Estilo personalizado para as setas do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e7a8a4; /* Cor do ícone da seta */
+}
 
-
+/* Estilo adicional para destacar as setas ao passar o mouse sobre elas */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #f5ccc9; /* Cor do ícone da seta */
+}
 /*Quando passar o ponteiro do mouse por cima da destaque*/
 nav a:hover{
     color:#ffe6d5;
