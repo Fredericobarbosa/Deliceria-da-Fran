@@ -1,0 +1,72 @@
+body{
+    background-color:#ffe6d5;
+}
+
+footer{
+    background-color: #e7a8a4;
+}
+
+.top_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #e7a8a4;
+}
+
+.icones{
+    display:block;
+    width: 150px;
+    height: 150px;
+    float:left;
+}
+
+.whats{
+    align-items:flex-start;
+    width: 200px;
+}
+
+.logofooter{
+    width: 80px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times;
+    width: 50%;   
+}
+
+h1,h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color:black;
+}
+.logo{
+    display: block;
+    width: 430px;
+    height:450px ;
+    float:left;
+}
+
+img.imageloop{
+    width: auto;
+    
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    font-size:x-large
+}
+
+
+
+
+/*Quando passar o ponteiro do mouse por cima da destaque*/
+nav a:hover{
+    color:#ffe6d5;
+}
+
